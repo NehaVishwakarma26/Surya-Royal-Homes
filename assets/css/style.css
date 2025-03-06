@@ -45,8 +45,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap');
 
 :root {
-    --bgcolor: #6637ed;
-    --main-color : #6637ed ;
+    --bgcolor: #FFD700;
+    --main-color : #FFD700 ;
 }
 body,html {
     font-family: "Inter" ;
@@ -78,8 +78,9 @@ h1{
 h2{
     font-size: 60px;
 }
-h3{
+h3 {
     font-size: 26px;
+    color: black;
 }
 h4{
     font-size: 24px;
@@ -1749,20 +1750,20 @@ footer {
 }
 
 .footer-try h2 {
-    color: #fff;
+    color: #333333;
     font-size: 65px;
     font-weight: bold;
-} 
+}
 .footer-try p {
-    color: #fff;
+    color: #333333;
     padding-top: 10px;
-} 
+}
 .footer-logo p {
-    color: #fff;
+    color: #333333;
     width: 90%;
     padding-top: 30px;
     padding-bottom: 40px;
-} 
+}
 ul.social-media a i {
     color: #fff;
     font-size: 23px;
@@ -1778,9 +1779,9 @@ ul.social-media a:hover i {
 .widget-title h3 {
     font-size: 26px;
     font-weight: bold;
-    color: #fff;
+    color: #333333;
     padding-bottom: 30px;
-} 
+}
 .widget-title ul {
     display: flex;
     justify-content: space-between;
@@ -1791,8 +1792,8 @@ ul.social-media a:hover i {
     width: 50%;
 } 
 .widget-title ul li a {
-    color: #fff;
-} 
+    color: #333333;
+}
 .widget-title ul li a:hover {
     color: var(--bgcolor);
 }
@@ -1825,13 +1826,13 @@ ul.social-media a:hover i {
     color: #000;
 }
 .get-in-touch span {
-    color: #fff;
+    color: #333333;
     padding-bottom: 4px;
     display: block;
     font-size: 18px;
-} 
+}
 .get-in-touch h6 a {
-    color: #fff;
+    color: #333333;
 }
 .get-in-touch h6 a:hover {
     color: var(--bgcolor);
@@ -1853,9 +1854,9 @@ footer {
     color: #fff;
 } 
 .all-rights p {
-    color: #fff;
+    color: #333333;
     font-size: 18px;
-} 
+}
 footer ul.shaps-img li:nth-child(2) {
     top: 42%;
     left: 6%;
@@ -2106,3 +2107,15 @@ footer ul.shaps-img li:nth-child(3) {
 .team:after,.team span,.team a,.team h4,ul.chek li img ,.widget-title ul li a,footer a,.presenting i:after{
     transition: .4s all;
 } 
+
+h3.text-white {
+    color: #333333 !important;
+}
+
+p.text-white {
+    color: #333333 !important;
+}
+
+div {
+    color: #333333;
+}
